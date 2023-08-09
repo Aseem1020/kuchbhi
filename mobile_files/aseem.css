@@ -1,0 +1,64 @@
+.header1{
+    display: flex;
+    gap:200px;
+    background-color: cadetblue;
+    margin: 20px;
+    padding: 10px;
+    color: bisque;
+    
+}
+
+.logo{
+    display: flex;
+    gap: 20px;
+    padding:20px;
+    margin: 10px;
+    align-items: center;
+
+}
+.aa{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    margin: 10px;
+    
+    
+
+}
+.icon{
+    display: flex;
+    gap:30px;
+    margin: 10px;
+    padding:10px;
+    align-items: center;
+}
+    
+    
+    .ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        background-color: aqua;
+        display: none;
+    }
+    .li{
+        padding: 1px 30px;
+        border-bottom: 1px solid rgba(red, green, blue, alpha);
+        list-style: none;
+
+    }
+    li:hover{
+        background-color: black;
+        color: white;
+        border-left: 7px solid green;
+
+
+    }
+    .head:hover ul{
+        display: block;
+    }
+    .head{
+        width: 100px;
+        box-shadow: 1px 2px 1px white;
+    }    
